@@ -1,26 +1,43 @@
 
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-light;
+    src: url(Roboto/Roboto-Light.ttf);
+}
+
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Roboto;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:flex-start;
     margin: 0;
     padding: 0;
+}
+
+.link-flex {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
 }
 
 .links {
     display: flex;
     gap: 16px;
-    margin-right: 16px;
 }
 
-.header-link {
+.hero-subtext {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
@@ -34,4 +51,102 @@ body {
 .body {
     display: flex;
     flex-direction: column;
+}
+
+.top {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.top img {
+    width: 400px;
+}
+
+.blurb {
+    width: 400px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.sign-up-btn {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    margin-top: 12px;
+    padding: 8px 22px 8px 22px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.mid1 {
+    padding-bottom: 80px;
+}
+
+.mid-title {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    color: #1f2937;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 140px;
+}
+
+.card img {
+    border-radius: 12px;
+    width: 100%;
+}
+
+.card-subtext {
+    color: #555555;
+}
+
+.mid2-bg {
+    background-color: #e5e7eb;
+}
+
+.mid2 {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 770px;
+    margin: auto;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: Roboto-light;
+    font-style: italic;
+    width: 770px;
+}
+
+.thor {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: auto;
 }
