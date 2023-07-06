@@ -86,6 +86,7 @@ body {
     padding: 8px 22px 8px 22px;
     border-radius: 6px;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .mid1 {
@@ -149,4 +150,41 @@ body {
     font-weight: bolder;
     font-size: 20px;
     margin-left: auto;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bubble {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 40px 120px 40px 120px;
+    border-radius: 12px;
+}
+
+.sign-up-2 {
+    border: solid;
+    border-color: #f9faf8;
+    border-width: 2px;
+}
+
+.cta {
+    color: #f9faf8;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
 }
